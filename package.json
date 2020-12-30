@@ -1,0 +1,37 @@
+{
+  "name": "solidarity",
+  "version": "1.0.0",
+  "description": "solidity project framework",
+  "keywords": [
+    "solidity"
+  ],
+  "author": "Jesen Kwan",
+  "license": "MIT",
+  "homepage": "https://github.com/guanzhenxing/solidarity#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guanzhenxing/solidarity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guanzhenxing/solidarity/issues"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "cli": "npx ganache-cli --deterministic",
+    "migrate": "npx truffle migrate"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
+    "@openzeppelin/contracts-upgradeable": "^3.3.0",
+    "@openzeppelin/truffle-upgrades": "^1.3.1",
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "chai": "^4.2.0",
+    "ganache-cli": "^6.12.1",
+    "mocha": "^8.2.1",
+    "truffle": "^5.1.51"
+  }
+}
